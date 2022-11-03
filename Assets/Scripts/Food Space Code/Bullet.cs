@@ -10,4 +10,9 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void FixedUpdate()
+    {
+        Destroy(gameObject, 3.0f);
+    }
+
 }
