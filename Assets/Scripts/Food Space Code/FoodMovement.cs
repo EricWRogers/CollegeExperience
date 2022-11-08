@@ -6,6 +6,8 @@ public class FoodMovement : MonoBehaviour
 {
     public float speed;
     public Rigidbody2D rb;
+
+    public int points = 5;
     
     // Start is called before the first frame update
     void Start()
@@ -19,8 +21,13 @@ public class FoodMovement : MonoBehaviour
         Destroy(gameObject, 5.0f);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        Destroy(gameObject);
+        if (col.gameObject.CompareTag("Bullet"))
+        {
+            gameObject.SetActive(false);
+            FoodScoreManager.instance.AddPoints(points);
+            HUD.instance.FoodDestroyed();
+        }
     }
 }
