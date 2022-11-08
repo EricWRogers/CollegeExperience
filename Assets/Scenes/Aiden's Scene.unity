@@ -1075,7 +1075,7 @@ MonoBehaviour:
         m_CallState: 2
   AutoStart: 1
   AutoRestart: 1
-  CountDownTime: 1
+  CountDownTime: 2
 --- !u!1 &1665577624
 GameObject:
   m_ObjectHideFlags: 0
