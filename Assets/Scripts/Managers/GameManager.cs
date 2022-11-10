@@ -12,10 +12,6 @@ public class GameManager : MonoBehaviour
     public int day = 1;
     public float time = 0.25f;
 
-    
-
-
-    public enum DAY {DAY1, DAY2, DAY3, DAY4, DAY5, DAY6, DAY7} //List of game states
 
     void Awake() {
         if(instance == null)
