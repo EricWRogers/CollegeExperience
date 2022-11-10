@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MackTestScene.unity
     guid: 8b13c4a681d3ebd4f80829104cd84c68
+  - enabled: 1
+    path: Assets/Scenes/Xander Test Scene.unity
+    guid: a66aa7a0f291d5c409930322b558b15d
   m_configObjects: {}
