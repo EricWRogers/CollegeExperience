@@ -6,6 +6,7 @@ public class FoodScoreManager : MonoBehaviour
 {
     public static FoodScoreManager instance;
 
+    public string sceneName;
     public int score = 0;
     public HungerBar hungerBar;
 
@@ -21,5 +22,10 @@ public class FoodScoreManager : MonoBehaviour
     {
         score += amount;
         hungerBar.slider.value = score;
+    }
+
+    public void GameOver()
+    {
+        GameManager.instance.loadScene(sceneName);
     }
 }
