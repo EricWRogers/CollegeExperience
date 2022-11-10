@@ -8,6 +8,7 @@ using TMPro;
 public class ProgressBar : MonoBehaviour
 {
     //List of Sliders
+    public Slider happiness;
     public Slider stress;
     public Slider hunger;
     public Slider proficiency; 
