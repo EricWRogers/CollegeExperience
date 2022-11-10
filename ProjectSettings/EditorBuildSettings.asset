@@ -18,6 +18,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenuScene.unity
     guid: 8b13c4a681d3ebd4f80829104cd84c68
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Mack's Scene.unity
     guid: 14ce7353950340e4188f11e1c0e4e24b
+=======
+    path: Assets/Scenes/Xander Test Scene.unity
+    guid: a66aa7a0f291d5c409930322b558b15d
+>>>>>>> main
   m_configObjects: {}
