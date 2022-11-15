@@ -6,7 +6,7 @@ public class OpenPanel : MonoBehaviour
 {
     public GameObject panel;
 
-    private void togglepanel(GameObject panel)
+    public void togglepanel()
     {
         panel.SetActive(!panel.active);
     }
