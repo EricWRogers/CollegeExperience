@@ -7,7 +7,7 @@ public class StudyHUD : MonoBehaviour
 {
     public static StudyHUD instance;
 
-    public TMP_Text hungerText;
+    public TMP_Text studyText;
 
     public TMP_Text timerText;
 
@@ -27,13 +27,13 @@ public class StudyHUD : MonoBehaviour
     void Update()
     {
 
-        if (FoodScoreManager.instance != null)
+        if (StudyScoreManager.instance != null)
         {
-            hungerText.text = "Hunger: " + FoodScoreManager.instance.score;
+            studyText.text = "Study: " + StudyScoreManager.instance.score;
         }
     }
 
-    public void FoodDestroyed()
+    public void WordsAbsorbed()
     {
         points++;
     }

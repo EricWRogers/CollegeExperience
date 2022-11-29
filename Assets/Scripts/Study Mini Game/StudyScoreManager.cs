@@ -8,7 +8,7 @@ public class StudyScoreManager : MonoBehaviour
 
     public string sceneName;
     public int score = 0;
-    public HungerBar hungerBar;
+    public StudyBar studyBar;
 
     void Awake()
     {
@@ -21,7 +21,7 @@ public class StudyScoreManager : MonoBehaviour
     public void AddPoints(int amount)
     {
         score += amount;
-        hungerBar.slider.value = score;
+        studyBar.slider.value = score;
     }
 
     public void GameOver()
