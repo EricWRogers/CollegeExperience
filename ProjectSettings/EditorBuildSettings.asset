@@ -15,9 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/b2.unity
     guid: b042fb90202bed1419b44aebc1323b54
   - enabled: 1
-    path: Assets/Scenes/MackTestScene.unity
+    path: Assets/Scenes/MainMenuScene.unity
     guid: 8b13c4a681d3ebd4f80829104cd84c68
   - enabled: 1
     path: Assets/Scenes/Xander Test Scene.unity
     guid: a66aa7a0f291d5c409930322b558b15d
+  - enabled: 1
+    path: Assets/Scenes/StudyMiniGame.unity
+    guid: 329e55f8f26b77b49a8a7b9141d50e71
+  - enabled: 1
+    path: Assets/Scenes/Aiden's Scene.unity
+    guid: 5af1bb9686b106a4c90d2b1f3454c92b
   m_configObjects: {}
