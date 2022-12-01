@@ -1082,6 +1082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Phone Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 1172910868476018656, guid: afff3d5378d7f2c4293a118dc18f81d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1386144600940055100, guid: afff3d5378d7f2c4293a118dc18f81d2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
