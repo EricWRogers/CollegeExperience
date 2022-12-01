@@ -27,10 +27,6 @@ public class StudyHUD : MonoBehaviour
     void Update()
     {
 
-        if (StudyScoreManager.instance != null)
-        {
-            studyText.text = "Study: " + StudyScoreManager.instance.score;
-        }
     }
 
     public void WordsAbsorbed()
